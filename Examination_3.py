@@ -9,3 +9,12 @@
 # ==========================================
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+a = int(input("ตัวเลข A :"))
+b = int(input("ตัวเลข B :"))
+c = int(input("ตัวเลข C :"))
+if a > b and a > c :
+    print(a)
+elif b > a and b > c :
+    print(b)
+else :
+    print(c)
